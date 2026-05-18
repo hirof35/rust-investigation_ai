@@ -1,7 +1,7 @@
 # ⚖️ 捜査証言・適合性解析システム (Rust版)
 
 複数の捜査証言（テキストファイル）を読み込み、AI（OpenAI GPT-4o）を活用して**タイムラインの統合、人物相関、物理的・論理的矛盾点**を自動で抽出する型安全な捜査支援ツールです。
-
+<img width="1292" height="611" alt="スクリーンショット 2026-05-18 122432" src="https://github.com/user-attachments/assets/bf791caa-2315-45c2-8344-17dafe688d83" />
 ## ✨ 主な機能
 - **自動フォルダスキャン**: 指定フォルダ内の `.txt` ファイルを一括読み込み。
 - **型安全なデータ構造**: `serde` を使用し、LLMからのJSON出力をRustの構造体へ安全にパース。
@@ -23,4 +23,4 @@
 mkdir testimonies
 
 
-<img width="1292" height="611" alt="スクリーンショット 2026-05-18 122432" src="https://github.com/user-attachments/assets/bf791caa-2315-45c2-8344-17dafe688d83" />
+
