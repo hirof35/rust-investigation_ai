@@ -1,0 +1,7 @@
+/target
+**/*.rs.bk
+Cargo.lock
+
+# 環境変数や秘密情報
+.env
+*.html
